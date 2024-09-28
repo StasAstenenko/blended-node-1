@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node src/scripts/generateProducts.js",
     "getExpensive": "node src/scripts/getExpensiveProducts.js",
-    "countPrice": "node src/scripts/countPriceProducts.js"
+    "countPrice": "node src/scripts/countPriceProducts.js",
+    "getProductsByCategory": "node src/scripts/getProductsByCategory.js",
+    "updateProducts": "node src/scripts/updateProducts.js",
+    "updateProductsPrice": "node src/scripts/updateProductsPrice.js",
+    "createFiles": "node src/scripts/createFiles.js"
   },
   "keywords": [],
   "author": "",

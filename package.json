@@ -1,24 +1,28 @@
 {
-  "type": "module",
-  "name": "blended-node-1",
+  "name": "start-files-blended-node-2-3modules",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node src/scripts/generateProducts.js",
-    "getExpensive": "node src/scripts/getExpensiveProducts.js",
-    "countPrice": "node src/scripts/countPriceProducts.js",
-    "getProductsByCategory": "node src/scripts/getProductsByCategory.js",
-    "updateProducts": "node src/scripts/updateProducts.js",
-    "updateProductsPrice": "node src/scripts/updateProductsPrice.js",
-    "createFiles": "node src/scripts/createFiles.js"
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <a.repeta@goit.global>",
   "license": "ISC",
-  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
+    "nodemon": "^3.1.2"
+  },
   "dependencies": {
-    "@faker-js/faker": "^9.0.3",
-    "node": "^22.9.0"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.4.0"
   }
 }

@@ -1,5 +1,4 @@
 import createHttpError from 'http-errors';
-import { errorHandler } from '../middlewares/errorHandler';
 
 export const validateBody = (schema) => async (req, res, next) => {
   try {
